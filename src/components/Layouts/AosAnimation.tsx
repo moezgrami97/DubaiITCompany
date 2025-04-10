@@ -7,7 +7,14 @@ import "../../../node_modules/aos/dist/aos.css";
 const AosAnimation: React.FC = () => {
  
   React.useEffect(() => {
-    AOS.init();
+    AOS.init({
+      duration: 800,
+      delay: 300,
+      once: false,
+      offset: 10,
+    });
+    
+    
   }, []);
 
   return (

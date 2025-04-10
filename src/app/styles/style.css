@@ -829,6 +829,11 @@ Navbar Area CSS
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.atla3 {
+  transform: translateY(-60px);
+}
+
 .others-option-for-responsive .container .container.active {
   opacity: 1;
   visibility: visible;
@@ -1684,7 +1689,7 @@ Main Banner Area CSS
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 220px;
-  padding-bottom: 210px;
+  padding-bottom: 50px;
 }
 .it-services-banner .main-banner-content {
   margin-top: 0;

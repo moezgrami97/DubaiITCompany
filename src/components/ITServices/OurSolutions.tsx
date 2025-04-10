@@ -18,18 +18,17 @@ const OurSolutions: React.FC = () => {
           >
             <span className="sub-title">
               <Image src="/img/star-icon.png" alt="image" width={32} height={34} />
-              Our Solutions
+              We Are Here to Provide Solutions
             </span>
-            <h2>We Different From Others Should Choose Us</h2>
+            <h2>IT Services</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna.
+              Our expert team is committed to your project, delivering efficient, tailored solutions quickly to meet your goals and exceed expectations.             
             </p>
           </div>
 
           <div className="row justify-content-center">
             <div 
-              className="col-lg-4 col-sm-6"
+              className="col-lg-3 col-sm-6"
               data-aos="fade-up"
               data-aos-duration="800"
               data-aos-delay="100"
@@ -37,14 +36,13 @@ const OurSolutions: React.FC = () => {
             >
               <div className="single-solutions-box">
                 <div className="icon">
-                  <i className="flaticon-rocket"></i>
+                  <i className="flaticon-laptop"></i>
                 </div>
                 <h3>
-                  <Link href="/services/details/">Code Security</Link>
+                  <Link href="/services/details/">Programming</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et.
+                Custom programming services to build efficient software, websites, and automation systems tailored to your business needs.
                 </p>
 
                 <Link href="/services/details/" className="view-details-btn">
@@ -54,7 +52,7 @@ const OurSolutions: React.FC = () => {
             </div>
 
             <div 
-              className="col-lg-4 col-sm-6"
+              className="col-lg-3 col-sm-6"
               data-aos="fade-up"
               data-aos-duration="800"
               data-aos-delay="200"
@@ -62,16 +60,15 @@ const OurSolutions: React.FC = () => {
             >
               <div className="single-solutions-box">
                 <div className="icon">
-                  <i className="flaticon-laptop"></i>
+                  <i className="flaticon-idea"></i>
                 </div>
 
                 <h3>
-                  <Link href="/services/details/">Team Management</Link>
+                  <Link href="/services/details/">Mobile Application</Link>
                 </h3>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et.
+                Expert mobile application development for iOS and Android, ensuring high performance, security, and a seamless user experience.
                 </p>
 
                 <Link href="/services/details/" className="view-details-btn">
@@ -81,7 +78,7 @@ const OurSolutions: React.FC = () => {
             </div>
 
             <div 
-              className="col-lg-4 col-sm-6"
+              className="col-lg-3 col-sm-6"
               data-aos="fade-up"
               data-aos-duration="800"
               data-aos-delay="300"
@@ -93,12 +90,36 @@ const OurSolutions: React.FC = () => {
                 </div>
 
                 <h3>
-                  <Link href="/services/details/">Access Controlled</Link>
+                  <Link href="/services/details/">E-commerce Solution</Link>
                 </h3>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et.
+                Custom e-commerce solutions with secure payment integrations and optimized shopping experiences to drive sales and growth.
+                </p>
+
+                <Link href="/services/details/" className="view-details-btn">
+                  View Details
+                </Link>
+              </div>
+            </div>
+            <div 
+              className="col-lg-3 col-sm-6"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="300"
+              data-aos-once="true"
+            >
+              <div className="single-solutions-box">
+                <div className="icon">
+                  <i className="flaticon-lock"></i>
+                </div>
+
+                <h3>
+                  <Link href="/services/details/">Cyber Security</Link>
+                </h3>
+
+                <p>
+                Protect your business with advanced cybersecurity services, including data protection, network security, and threat mitigation.
                 </p>
 
                 <Link href="/services/details/" className="view-details-btn">

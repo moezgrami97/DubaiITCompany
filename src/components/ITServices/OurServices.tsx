@@ -37,46 +37,37 @@ const OurServices: React.FC = () => {
                       width={32}
                       height={34}
                     />{" "}
-                    Services
+                    We Are Here to Drive Growth
                   </span>
 
-                  <h2>Cloud Hosting Services</h2>
+                  <h2>Digital Marketing</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna.
+                  Our expert team specializes in digital marketing strategies that help your brand grow, increase visibility, and reach your target audience effectively. We deliver tailored, results-driven campaigns to boost engagement and drive conversions.
                   </p>
                   <ul className="about-list mb-0">
                     <li>
                       <i className="flaticon-tick"></i>
-                      Cloud Databases
+                      Marketing Strategy
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      Website Hosting
+                      Brand Design
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      File Storage
+                      Photography Services
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      Forex Trading
+                      Video Production
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      File Backups
+                      Content Writing
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      Remote Desktop
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i>
-                      Email Servers
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i>
-                      Hybrid Cloud
+                      SEO
                     </li>
                   </ul>
                 </div>
@@ -101,13 +92,12 @@ const OurServices: React.FC = () => {
                       width={32}
                       height={34}
                     />{" "}
-                    Services
+                    Scrum Methodology
                   </span>
 
-                  <h2>Design & Development</h2>
+                  <h2>Our Approach</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna.
+                  We listen to our clients, analyze their business needs, and propose the most effective solutions. Throughout the process, we keep our clients informed with weekly meetings to track progress. After delivery, we provide three months of free support to ensure everything runs smoothly.
                   </p>
 
                   <ul className="our-mission-list mb-0">
@@ -115,34 +105,7 @@ const OurServices: React.FC = () => {
                       <i className="flaticon-tick"></i>
                       Responsive Design
                     </li>
-                    <li>
-                      <i className="flaticon-tick"></i>
-                      React Development
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i>
-                      Apps Development
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i>
-                      Laravel Development
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i>
-                      UX/UI Design
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i>
-                      E-commerce Design
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i>
-                      Web Design
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i>
-                      Print Ready Design
-                    </li>
+                    
                   </ul>
                 </div>
               </div>

@@ -64,14 +64,13 @@ const Navbar: React.FC = () => {
                 </ul>
 
                 <div className="others-option d-flex align-items-center">
-                  <div className="option-item">
-                    {/* SearchForm */}
+                  {/* <div className="option-item">
                     <SearchForm />
-                  </div>
+                  </div> */}
 
                   <div className="option-item">
                     <Link href="/contact/" className="default-btn">
-                      <i className="flaticon-right"></i> Get Started{" "}
+                      <i className="flaticon-right"></i>Contact US{" "}
                       <span></span>
                     </Link>
                   </div>
