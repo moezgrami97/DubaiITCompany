@@ -11,6 +11,7 @@ import Partner from "../components/ITServices/Partner";
 import OurBlog from "../components/ITServices/OurBlog";
 import ProjectStartArea from "../components/ITServices/ProjectStartArea";
 import Footer from "../components/Layouts/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   return (
@@ -38,8 +39,9 @@ export default function Home() {
       <OurBlog />
 
       <ProjectStartArea />
-
+      <SpeedInsights />
       <Footer />
+      
     </>
   );
 }
