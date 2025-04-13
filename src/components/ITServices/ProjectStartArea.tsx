@@ -23,10 +23,9 @@ const ProjectStartArea: React.FC = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="project-start-content">
-                <h2>We Like to Start Your Project With Us</h2>
+                <h2>We'd Love to Start Your Project With Us</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna.
+                Ready to bring your vision to life? Whether you're building a brand, launching a new product, or growing your digital presence, we're here to help. Let’s collaborate to create something impactful and tailored to your goals.
                 </p>
 
                 <Link href="/contact" className="default-btn">

@@ -79,7 +79,7 @@ const OurServices: React.FC = () => {
       {/* End Service Left Image Style */}
 
       {/* Service Right Image Style */}
-      <div className="our-mission-area pb-100">
+      {/* <div className="our-mission-area pb-100">
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
@@ -129,7 +129,7 @@ const OurServices: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End Service Right Image Style */}
     </>
   );

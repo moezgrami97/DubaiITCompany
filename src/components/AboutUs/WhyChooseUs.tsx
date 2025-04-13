@@ -18,40 +18,36 @@ const WhyChooseUs: React.FC = () => {
                     width={32}
                     height={34}
                   />
-                  People Love Us
+                  Scrum Methodology
                 </span>
 
-                <h2>Why Choose Us?</h2>
+                <h2>Our Approach</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna.
+                  We listen to our clients, analyze their business needs, and propose the most effective solutions. Throughout the process, we keep our clients informed with weekly meetings to track progress. After delivery, we provide three months of free support to ensure everything runs smoothly.
                 </p>
 
                 <div className="inner-box">
                   <div className="single-item">
                     <div className="count-box">1</div>
-                    <h3>Data for All Your People</h3>
+                    <h3>Step 1: Contact Us</h3>
                     <p>
-                      Dolor sit amet consectetur elit eiusmod tempor incidi dunt
-                      labore dolore magna aliqua enim.
+                    Get in touch: Request a free consultation to discuss your business needs with our expert team.
                     </p>
                   </div>
 
                   <div className="single-item">
                     <div className="count-box">2</div>
-                    <h3>A New Breed of AI</h3>
+                    <h3>Step 2: Tailored Solution Development</h3>
                     <p>
-                      Dolor sit amet consectetur elit eiusmod tempor incidi dunt
-                      labore dolore magna aliqua enim.
+                    Strategize & Plan: We analyze your needs and create a customized solution that aligns with your goals.
                     </p>
                   </div>
 
                   <div className="single-item">
                     <div className="count-box">3</div>
-                    <h3>Analytics Business</h3>
+                    <h3>Step 3: Launch & Support</h3>
                     <p>
-                      Dolor sit amet consectetur elit eiusmod tempor incidi dunt
-                      labore dolore magna aliqua enim.
+                    Delivery & Ongoing Care: We deliver your solution, and offer three months of free support to ensure everything runs smoothly.
                     </p>
                   </div>
                 </div>

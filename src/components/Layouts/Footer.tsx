@@ -23,9 +23,7 @@ const Footer: React.FC = () => {
                   />
                 </Link>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-                  suspendisse.
+                We're a Dubai-based company delivering smart, reliable solutions to help your business grow. Let’s bring your vision to life—together.
                 </p>
 
                 <ul className="social-link">
@@ -38,7 +36,7 @@ const Footer: React.FC = () => {
                       <i className="bx bxl-facebook"></i>
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       className="d-block"
                       target="_blank"
@@ -46,7 +44,7 @@ const Footer: React.FC = () => {
                     >
                       <i className="bx bxl-twitter"></i>
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       className="d-block"
@@ -147,10 +145,10 @@ const Footer: React.FC = () => {
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-6">
                 <p>
-                  Copyright &copy;{currentYear} <strong>Tarn</strong> All rights
+                  Copyright &copy;{currentYear} <strong>AlberoIT</strong> All rights
                   reserved{" "}
-                  <a target="_blank" href="https://envytheme.com/">
-                    EnvyTheme
+                  <a href="https://alberoit.ae/">
+                    AlberoIT
                   </a>
                 </p>
               </div>
