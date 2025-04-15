@@ -17,15 +17,14 @@ const OurHistory: React.FC = () => {
             />
             Our History
           </span>
-          <h2>History Begins in 2010</h2>
+          <h2>History Begins in 2024</h2>
         </div>
 
         <ol className="timeline history-timeline">
           <li className="timeline-block">
             <div className="timeline-date">
-              <span>2010</span>
-              February 20
-              <sup>th</sup>
+              <span>2024</span>
+              Foundation Year
             </div>
 
             <div className="timeline-icon">
@@ -36,12 +35,9 @@ const OurHistory: React.FC = () => {
               <div className="row align-items-center">
                 <div className="col-lg-7 col-md-12">
                   <div className="content">
-                    <h3>Founded</h3>
+                    <h3>Founded in Dubai</h3>
                     <p>
-                      Real innovations and a positive customer experience are
-                      the heart of successful communication. Lorem ipsum dolor
-                      sit amet, sectetur adipiscing elit, tempor incididunt ut
-                      labore et dolore magna.
+                      In 2024, we laid the foundation of our journey in Dubai. Our mission was clear: to create websites that not only look great but also perform flawlessly. Since day one, we’ve focused on providing creative, secure, and scalable digital solutions for businesses of all sizes.
                     </p>
                   </div>
                 </div>
@@ -60,10 +56,10 @@ const OurHistory: React.FC = () => {
             </div>
           </li>
 
-          <li className="timeline-block">
+          {/* <li className="timeline-block">
             <div className="timeline-date">
-              <span>2023</span>
-              January 14
+              <span>2016</span>
+              March 25
               <sup>th</sup>
             </div>
 
@@ -75,12 +71,9 @@ const OurHistory: React.FC = () => {
               <div className="row align-items-center">
                 <div className="col-lg-7 col-md-12">
                   <div className="content">
-                    <h3>Global Success</h3>
+                    <h3>Expansion into Cybersecurity</h3>
                     <p>
-                      Real innovations and a positive customer experience are
-                      the heart of successful communication. Lorem ipsum dolor
-                      sit amet, sectetur adipiscing elit, tempor incididunt ut
-                      labore et dolore magna.
+                      By 2016, we expanded our offerings to include top-tier cybersecurity services. Our expert penetration testing solutions helped businesses identify and resolve vulnerabilities, ensuring that their digital assets were safe and secure.
                     </p>
                   </div>
                 </div>
@@ -101,8 +94,8 @@ const OurHistory: React.FC = () => {
 
           <li className="timeline-block">
             <div className="timeline-date">
-              <span>2016</span>
-              March 25
+              <span>2020</span>
+              August 14
               <sup>th</sup>
             </div>
 
@@ -114,12 +107,9 @@ const OurHistory: React.FC = () => {
               <div className="row align-items-center">
                 <div className="col-lg-7 col-md-12">
                   <div className="content">
-                    <h3>Founded Data Center</h3>
+                    <h3>Launch of Brand Design Services</h3>
                     <p>
-                      Real innovations and a positive customer experience are
-                      the heart of successful communication. Lorem ipsum dolor
-                      sit amet, sectetur adipiscing elit, tempor incididunt ut
-                      labore et dolore magna.
+                      In 2020, we launched our brand design services to help businesses create unique identities that stand out in the digital world. We worked with companies across various industries to develop memorable logos and visual identities.
                     </p>
                   </div>
                 </div>
@@ -153,12 +143,9 @@ const OurHistory: React.FC = () => {
               <div className="row align-items-center">
                 <div className="col-lg-7 col-md-12">
                   <div className="content">
-                    <h3>International Award</h3>
+                    <h3>Global Recognition</h3>
                     <p>
-                      Real innovations and a positive customer experience are
-                      the heart of successful communication. Lorem ipsum dolor
-                      sit amet, sectetur adipiscing elit, tempor incididunt ut
-                      labore et dolore magna.
+                      In 2023, we received international recognition for our excellence in web development and digital marketing. Our work has impacted businesses globally, driving their growth and success through secure, innovative, and user-focused solutions.
                     </p>
                   </div>
                 </div>
@@ -175,10 +162,11 @@ const OurHistory: React.FC = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
         </ol>
       </div>
     </div>
+
   );
 };
 

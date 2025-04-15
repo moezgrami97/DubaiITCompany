@@ -12,7 +12,7 @@ const Testimonials: React.FC = () => {
       <div className="testimonials-area bg-f1f8fb">
         <div className="container">
           <div className="section-title">
-            <span className="sub-title">
+            <span className="sub-title" style={{paddingTop:'40px'}}>
               <Image
                 src="/img/star-icon.png"
                 alt="image"
@@ -23,8 +23,7 @@ const Testimonials: React.FC = () => {
             </span>
             <h2>What Our Clients are Saying?</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna.
+            Real Feedback from Our Satisfied Clients
             </p>
           </div>
 
@@ -50,30 +49,31 @@ const Testimonials: React.FC = () => {
             <SwiperSlide>
               <div className="single-testimonials-item">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna ali.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                The team at AlberoIT has been incredible. They helped us redesign our website, making it more user-friendly and visually appealing. Their expertise in security has given us peace of mind, knowing that our online presence is protected.
                 </p>
 
                 <div className="client-info">
                   <div className="d-flex justify-content-center align-items-center">
-                    <Image
-                      src="/img/testimonials/client1.jpg"
-                      alt="image"
-                      width={50}
-                      height={50}
-                    />
+                  {/* <Image
+                    src="/img/testimonials/client1.jpg"
+                    alt="image"
+                    width={200}
+                    height={50}
+                    style={{
+                      objectFit: "cover",  
+                      borderRadius: "0%",  
+                    }}
+                  /> */}
                     <div className="title">
-                      <h3>Alex Maxwell</h3>
-                      <span>CEO at EnvyTheme</span>
+                      <h3>Autonation</h3>
+                      <span>Used Cars in Dubai</span>
                     </div>
                   </div>
                 </div>
               </div>
             </SwiperSlide>
 
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="single-testimonials-item">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -122,15 +122,15 @@ const Testimonials: React.FC = () => {
                   </div>
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
 
-          <div className="testimonials-view-btn text-center">
+          {/* <div className="testimonials-view-btn text-center">
             <Link href="/testimonials" className="default-btn">
               <i className="flaticon-view"></i>
               Check Out All Reviews <span></span>
             </Link>
-          </div>
+          </div> */}
         </div>
 
         <div className="shape-img1">

@@ -9,18 +9,21 @@ import TeamMembers from "../../components/AboutUs/TeamMembers";
 import Testimonials from "../../components/AboutUs/Testimonials";
 import Partner from "../../components/AboutUs/Partner";
 import Footer from "../../components/Layouts/Footer";
+import PageTopSpacing from "@/components/Common/PageTopSpacing";
 
 export default function Page() {
   return (
     <>
       <Navbar />
 
-      <PageBanner
+      {/* <PageBanner
         pageTitle="About Us"
         homePageText="Home"
         homePageUrl="/"
         activePageText="About Us"
-      />
+      /> */}
+
+      <PageTopSpacing />
 
       <AboutUsContent />
 
@@ -28,13 +31,13 @@ export default function Page() {
 
       <WhyChooseUs />
 
-      <HowItWork />
+      {/* <HowItWork /> */}
 
-      <TeamMembers />
+      {/* <TeamMembers /> */}
 
-      <Testimonials />
+      {/* <Testimonials /> */}
 
-      <Partner />
+      {/* <Partner /> */}
 
       <Footer />
     </>

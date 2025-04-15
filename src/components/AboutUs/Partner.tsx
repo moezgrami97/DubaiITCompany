@@ -20,7 +20,7 @@ const Partner: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-2 col-6 col-sm-4 col-md-4">
+            {/* <div className="col-lg-2 col-6 col-sm-4 col-md-4">
               <div className="single-partner-item">
                 <Image
                   src="/img/partner/partner2.png"
@@ -73,7 +73,7 @@ const Partner: React.FC = () => {
                   height={40}
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

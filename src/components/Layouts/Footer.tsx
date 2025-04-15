@@ -122,20 +122,20 @@ const Footer: React.FC = () => {
                 <ul className="footer-contact-info">
                   <li>
                     <i className="bx bx-map"></i>
-                    175 5th Ave, New York, NY 10010, <br /> United States
+                    OFFICE # 2504-3, PRISM TOWER,  <br /> BURJ KHALIFA AREA - Dubai
                   </li>
                   <li>
                     <i className="bx bx-phone-call"></i>
-                    <a href="tel:+44587154756">+1 (123) 456 7890</a>
+                    <a href="tel:+44587154756">+971 56 425 5991</a>
                   </li>
                   <li>
                     <i className="bx bx-envelope"></i>
-                    <a href="mailto:hello@tarn.com">hello@tarn.com</a>
+                    <a href="mailto:hello@tarn.com">contact@alberoit.ae</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <i className="bx bxs-inbox"></i>
                     <a href="tel:+557854578964">+55 785 4578964</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

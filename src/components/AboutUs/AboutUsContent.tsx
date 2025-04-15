@@ -33,10 +33,9 @@ const AboutUsContent: React.FC = () => {
                     />
                     About Us
                   </span>
-                  <h2>Drive Digital Revolution Through Data Science</h2>
+                  <h2>We Are a Dubai-Based Company Empowering Brands in the Digital World</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna.
+                  Headquartered in Dubai, we specialize in crafting impactful websites, securing digital assets through expert penetration testing, designing unique brand identities, and executing result-driven digital marketing strategies. Our mission is to help businesses grow, stay secure, and stand out in the digital space.
                   </p>
 
                   <ul className="features-list">
@@ -47,7 +46,7 @@ const AboutUsContent: React.FC = () => {
                         width={58}
                         height={52}
                       />
-                      <h3>10 Years</h3>
+                      <h3>1 Year</h3>
                       <p>On the market</p>
                     </li>
                     <li>
@@ -57,7 +56,7 @@ const AboutUsContent: React.FC = () => {
                         width={58}
                         height={52}
                       />
-                      <h3>45+</h3>
+                      <h3>16+</h3>
                       <p>Team members</p>
                     </li>
                     <li>
@@ -82,12 +81,12 @@ const AboutUsContent: React.FC = () => {
                     </li>
                   </ul>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna.
+                  Whether you're launching a startup, rebranding an existing business, or securing your digital assets, we bring a unique blend of creativity, technical expertise, and strategy to every project.
+                  <br/>Let's build something amazing together.
                   </p>
 
                   <Link href="/about-us" className="default-btn">
-                    <i className="flaticon-right"></i>More About Us<span></span>
+                    <i className="flaticon-right"></i>Get In Touch<span></span>
                   </Link>
                 </div>
               </div>
@@ -111,22 +110,21 @@ const AboutUsContent: React.FC = () => {
                 <div className="about-text">
                   <h3>Our History</h3>
                   <p>
-                    Real innovations and a positive customer experience are the
-                    heart of successful communication.
+                  We are a Dubai-based company that has been creating impactful digital experiences. From innovative websites to powerful brand identities, we've helped businesses thrive in the digital world.
                   </p>
 
                   <ul className="features-list">
                     <li>
-                      <i className="flaticon-tick"></i> Activate Listening
+                      <i className="flaticon-tick"></i> Building user-friendly websites
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Brilliant minds
+                      <i className="flaticon-tick"></i> Creating unique brand identities
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Better. Best. Wow!
+                      <i className="flaticon-tick"></i> Securing digital assets with expert pentesting
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Branding it better!
+                      <i className="flaticon-tick"></i> Driving growth through digital marketing
                     </li>
                   </ul>
                 </div>
@@ -136,22 +134,21 @@ const AboutUsContent: React.FC = () => {
                 <div className="about-text">
                   <h3>Our Mission</h3>
                   <p>
-                    Real innovations and a positive customer experience are the
-                    heart of successful communication.
+                  Our mission is to help businesses succeed by combining creativity, security, and strategy. We build secure websites, design memorable brands, and deliver marketing campaigns that drive results.
                   </p>
 
                   <ul className="features-list">
                     <li>
-                      <i className="flaticon-tick"></i> Creating. Results.
+                      <i className="flaticon-tick"></i> Creating digital solutions that work
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Expect more
+                      <i className="flaticon-tick"></i> Securing your business in the digital age
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Good thinking
+                      <i className="flaticon-tick"></i> Designing brands that make an impact
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> In real we trust
+                      <i className="flaticon-tick"></i> Helping you grow through marketing excellence
                     </li>
                   </ul>
                 </div>
@@ -161,22 +158,21 @@ const AboutUsContent: React.FC = () => {
                 <div className="about-text">
                   <h3>Who we are</h3>
                   <p>
-                    Real innovations and a positive customer experience are the
-                    heart of successful communication.
+                  We are a team of designers, developers, marketers, and cybersecurity experts, united by a passion for delivering exceptional digital solutions that empower businesses to grow and stay secure.
                   </p>
 
                   <ul className="features-list">
                     <li>
-                      <i className="flaticon-tick"></i> Stay real. Always.
+                      <i className="flaticon-tick"></i> Passionate about innovation
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> We have you covered
+                      <i className="flaticon-tick"></i> We protect your digital assets
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> We turn heads
+                      <i className="flaticon-tick"></i> We design with purpose
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Your brand, promoted
+                      <i className="flaticon-tick"></i> Your success is our priority
                     </li>
                   </ul>
                 </div>
