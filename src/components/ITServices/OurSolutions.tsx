@@ -45,9 +45,9 @@ const OurSolutions: React.FC = () => {
                 Custom programming services to build efficient software, websites, and automation systems tailored to your business needs.
                 </p>
 
-                <Link href="/services/details/" className="view-details-btn">
+                {/* <Link href="/services/details/" className="view-details-btn">
                   View Details
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -71,9 +71,9 @@ const OurSolutions: React.FC = () => {
                 Expert mobile application development for iOS and Android, ensuring high performance, security, and a seamless user experience.
                 </p>
 
-                <Link href="/services/details/" className="view-details-btn">
+                {/* <Link href="/services/details/" className="view-details-btn">
                   View Details
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -97,9 +97,9 @@ const OurSolutions: React.FC = () => {
                 Custom e-commerce solutions with secure payment integrations and optimized shopping experiences to drive sales and growth.
                 </p>
 
-                <Link href="/services/details/" className="view-details-btn">
+                {/* <Link href="/services/details/" className="view-details-btn">
                   View Details
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div 
@@ -122,9 +122,9 @@ const OurSolutions: React.FC = () => {
                 Protect your business with advanced cybersecurity services, including data protection, network security, and threat mitigation.
                 </p>
 
-                <Link href="/services/details/" className="view-details-btn">
+                {/* <Link href="/services/details/" className="view-details-btn">
                   View Details
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

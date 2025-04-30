@@ -45,59 +45,77 @@ export const menus = [
     label: "About Us",
     link: "/about-us/",
   },
-  {
-    label: "IT Services",
-    link: "/services/4/",
-    submenu: [
-      {
-        label: "Software Development",
-        link: "/services/details/",
-      },
-      {
-        label: "Mobile App Development",
-        link: "/services/details/",
-      },
-      {
-        label: "E-commerce Solutions",
-        link: "/services/details/",
-      },
-      {
-        label: "Cyber Security",
-        link: "/services/details/2/",
-      },
-    ],
-  },
-  {
-    label: "Digital Marketing",
-    link: "/services/4/",
-    submenu: [
+
+
+
+
+
+  // {
+  //   label: "IT Services",
+  //   link: "/services/4/",
+  //   submenu: [
+  //     {
+  //       label: "Software Development",
+  //       link: "/services/details/",
+  //     },
+  //     {
+  //       label: "Mobile App Development",
+  //       link: "/services/details/",
+  //     },
+  //     {
+  //       label: "E-commerce Solutions",
+  //       link: "/services/details/",
+  //     },
+  //     {
+  //       label: "Cyber Security",
+  //       link: "/services/details/2/",
+  //     },
+  //   ],
+  // },
+  // {
+  //   label: "Digital Marketing",
+  //   link: "/services/4/",
+  //   submenu: [
       
-      {
-        label: "Marketing Strategy",
-        link: "/services/details/2/",
-      },
-      {
-        label: "Brand Design",
-        link: "/services/details/2/",
-      },
-      {
-        label: "Photography Services",
-        link: "/services/details/",
-      },
-      {
-        label: "Video Production",
-        link: "/services/details/",
-      },
-      {
-        label: "Content Writing",
-        link: "/services/details/",
-      },
-      {
-        label: "Search Engine Optimization (SEO)",
-        link: "/services/details/",
-      },
-    ],
-  },
+  //     {
+  //       label: "Marketing Strategy",
+  //       link: "/services/details/2/",
+  //     },
+  //     {
+  //       label: "Brand Design",
+  //       link: "/services/details/2/",
+  //     },
+  //     {
+  //       label: "Photography Services",
+  //       link: "/services/details/",
+  //     },
+  //     {
+  //       label: "Video Production",
+  //       link: "/services/details/",
+  //     },
+  //     {
+  //       label: "Content Writing",
+  //       link: "/services/details/",
+  //     },
+  //     {
+  //       label: "Search Engine Optimization (SEO)",
+  //       link: "/services/details/",
+  //     },
+  //   ],
+  // },
+
+
+
+
+
+
+
+
+
+
+
+
+
   // {
   //   label: "Case Studies",
   //   link: "#",
@@ -126,7 +144,7 @@ export const menus = [
   // },
   {
     label: "Our Approach",
-    link: "#",
+    link: "/our-approach/",
     // submenu: [
     //   {
     //     label: "Courses Grid",
@@ -182,22 +200,22 @@ export const menus = [
     //   },
     // ],
   },
-  {
-    label: "Blog",
-    link: "#",
-    // submenu: [
-    //   {
-    //     label: "Blog Grid",
-    //     link: "/blog/",
-    //   },
-    //   {
-    //     label: "Blog Right Sidebar",
-    //     link: "/blog/2/",
-    //   },
-    //   {
-    //     label: "Blog Details",
-    //     link: "/blog/details/",
-    //   },
-    // ],
-  },
+  // {
+  //   label: "Blog",
+  //   link: "#",
+  //   submenu: [
+  //     {
+  //       label: "Blog Grid",
+  //       link: "/blog/",
+  //     },
+  //     {
+  //       label: "Blog Right Sidebar",
+  //       link: "/blog/2/",
+  //     },
+  //     {
+  //       label: "Blog Details",
+  //       link: "/blog/details/",
+  //     },
+  //   ],
+  // },
 ];

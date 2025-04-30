@@ -156,10 +156,10 @@ const Footer: React.FC = () => {
               <div className="col-lg-6 col-md-6">
                 <ul>
                   <li>
-                    <Link href="/privacy-policy">Privacy Policy</Link>
+                    {/* <Link href="/privacy-policy">Privacy Policy</Link> */}Privacy Policy
                   </li>
                   <li>
-                    <Link href="/terms-of-service">Terms & Conditions</Link>
+                    {/* <Link href="/terms-of-service">Terms & Conditions</Link> */}Terms & Conditions
                   </li>
                 </ul>
               </div>

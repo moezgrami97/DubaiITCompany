@@ -61,14 +61,6 @@ const OurServices: React.FC = () => {
                       <i className="flaticon-tick"></i>
                       Video Production
                     </li>
-                    <li>
-                      <i className="flaticon-tick"></i>
-                      Content Writing
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i>
-                      SEO
-                    </li>
                   </ul>
                 </div>
               </div>

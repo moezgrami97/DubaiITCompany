@@ -17,7 +17,8 @@ const ContactInfo: React.FC = () => {
                   <i className="bx bx-map"></i>
                 </div>
                 <h3>Our Address</h3>
-                <p>175 5th Ave, New York, NY 10010, United States</p>
+                <p className="fs-6">OFFICE # 2504-3, PRISM TOWER,
+                BURJ KHALIFA AREA - Dubai</p>
               </div>
             </div>
 
@@ -31,10 +32,10 @@ const ContactInfo: React.FC = () => {
                 </div>
                 <h3>Contact</h3>
                 <p>
-                  Mobile: <a href="tel:+44457895789">(+44) - 45789 - 5789</a>
+                  Mobile: <a href="tel:+971564255991">+971 56 425 5991</a>
                 </p>
                 <p>
-                  E-mail: <a href="mailto:hello@tracer.com">hello@tarn.com</a>
+                  E-mail: <a href="mailto:hello@tracer.com">contact@alberoit.ae</a>
                 </p>
               </div>
             </div>
@@ -48,8 +49,8 @@ const ContactInfo: React.FC = () => {
                   <i className="bx bx-time-five"></i>
                 </div>
                 <h3>Hours of Operation</h3>
-                <p>Monday - Friday: 09:00 - 20:00</p>
-                <p>Sunday & Saturday: 10:30 - 22:00</p>
+                <p>Monday - Saturday: </p>
+                <p>10:00 - 22:00</p>
               </div>
             </div>
           </div>
