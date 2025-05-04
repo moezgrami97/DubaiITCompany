@@ -142,9 +142,9 @@ export const menus = [
   //     },
   //   ],
   // },
-  {
-    label: "Our Approach",
-    link: "/our-approach/",
+  //{
+   // label: "Our Approach",
+   // link: "/our-approach/",
     // submenu: [
     //   {
     //     label: "Courses Grid",
@@ -199,7 +199,7 @@ export const menus = [
     //     link: "/privacy-policy/",
     //   },
     // ],
-  },
+ // },
   // {
   //   label: "Blog",
   //   link: "#",
