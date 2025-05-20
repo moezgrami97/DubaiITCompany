@@ -33,7 +33,7 @@ const AosAnimation: React.FC = () => {
         btnPosition: "right",
         whatsAppNumber: "971564255991",
         welcomeMessage:
-          "Hello, and thank you for reaching out.\nOur specialists are eager to learn more about your needs and are ready to assist you.",
+          "Dear Jasser, I hope this message finds you well. I am interested in booking a free consultation to discuss the details of my project. It would be great to speak with one of your specialists to better understand how your services can support my needs.",
         zIndex: 999999,
         btnColorScheme: "light",
       };
@@ -50,7 +50,7 @@ const AosAnimation: React.FC = () => {
         welcomeMessage: "Hello",
         btnColorScheme: "light",
         brandImage:
-          "https://otrs.com/wp-content/uploads/IT-Service-Desk-Featured-Image.jpg",
+          "https://alberoit.ae/img/jasser.jpg",
         darkHeaderColorScheme: {
           title: "#333333",
           subTitle: "#4F4F4F",
