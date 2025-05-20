@@ -50,13 +50,13 @@ const AosAnimation: React.FC = () => {
         welcomeMessage: "Hello",
         btnColorScheme: "light",
         brandImage:
-          "https://scontent.fdxb3-1.fna.fbcdn.net/v/t39.30808-6/482000873_9041391832655995_8527792425599040484_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=d6IN9cca-84Q7kNvwGpD7IW&_nc_oc=AdmftRyti1BPYu6RaIdr01jUwIQiiL0hjsmjtRXSbQIhPro5LhmtmXrhKAQN_6rjF8o&_nc_zt=23&_nc_ht=scontent.fdxb3-1.fna&_nc_gid=wkBusjCXsJY_n-GT_VtePg&oh=00_AfFzSpVN1tuK1DSrnBesvR4FOYDqFTXqqBH3aunyVPSP_g&oe=681D5FE5",
+          "https://otrs.com/wp-content/uploads/IT-Service-Desk-Featured-Image.jpg",
         darkHeaderColorScheme: {
           title: "#333333",
           subTitle: "#4F4F4F",
         },
       };
-      _waEmbed(wa_btnSetting, wa_widgetSetting); // Initialize the widget
+      window._waEmbed(wa_btnSetting, wa_widgetSetting); // Initialize the widget
     };
 
     // Cleanup function to remove the script on component unmount

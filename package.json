@@ -3,7 +3,7 @@
   "version": "1.7.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next build && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -13,6 +13,7 @@
     "@types/fslightbox-react": "^1.7.7",
     "@vercel/speed-insights": "^1.2.0",
     "aos": "^2.3.4",
+    "emailjs-com": "^3.2.0",
     "fslightbox-react": "^1.7.6",
     "next": "14.1.1",
     "react": "^18",

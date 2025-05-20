@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import emailjs from "emailjs-com";
 
 interface FormValues {
   name: string;
@@ -20,6 +21,9 @@ const ContactForm: React.FC = () => {
     text: "",
   });
 
+  const [isSending, setIsSending] = useState<boolean>(false); // to show loading state
+  const [responseMessage, setResponseMessage] = useState<string>("");
+
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -32,6 +36,42 @@ const ContactForm: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setIsSending(true);
+
+
+    const plainFormData = Object.fromEntries(
+      Object.entries(formData).map(([key, value]) => [key, value])
+    );
+
+    emailjs
+      .send(
+        "service_g80j51t", // Replace with your service ID
+        "template_3es4j0k", // Replace with your template ID
+        plainFormData, // Form data to be sent in the email
+        "mmxmpx1bu9hDyiuyl" // Replace with your user ID from EmailJS
+      )
+      .then(
+        (response) => {
+          console.log("Email sent successfully", response);
+          setResponseMessage("Thank you! Your message has been sent.");
+          setFormData({
+            name: "",
+            email: "",
+            number: "",
+            subject: "",
+            text: "",
+          });
+        },
+        (error) => {
+          console.error("Error sending email", error);
+          setResponseMessage("Oops! Something went wrong, please try again.");
+        }
+      )
+      .finally(() => {
+        setIsSending(false); // Reset sending state
+      });
+
+
     // Here you can handle form submission, for now, let's just log the data
     console.log(formData);
   };
@@ -146,12 +186,15 @@ const ContactForm: React.FC = () => {
 
                     <div className="col-lg-12 col-sm-12">
                       <button type="submit" className="default-btn">
-                        <i className="flaticon-tick"></i> Send Message{" "}
+                        <i className="flaticon-tick"></i> {isSending ? "Sending..." : "Send Message"}
                         <span></span>
                       </button>
                     </div>
                   </div>
                 </form>
+
+                {responseMessage && <p>{responseMessage}</p>}
+
               </div>
             </div>
           </div>
