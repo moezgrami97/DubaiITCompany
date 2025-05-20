@@ -50,7 +50,7 @@ const AosAnimation: React.FC = () => {
         welcomeMessage: "Hello",
         btnColorScheme: "light",
         brandImage:
-          "https://alberoit.ae/img/jasser.jpg",
+          "https://www.alberoit.ae/img/jasser.jpeg",
         darkHeaderColorScheme: {
           title: "#333333",
           subTitle: "#4F4F4F",
