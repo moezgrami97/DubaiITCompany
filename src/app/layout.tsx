@@ -12,6 +12,9 @@ import "../app/styles/responsive.css";
 
 import AosAnimation from "@/components/Layouts/AosAnimation";
 import { Nunito } from "next/font/google";
+
+import { Analytics } from "@vercel/analytics/next"
+
 const nunito = Nunito({ subsets: ["latin"] });
 
 export const metadata = {
@@ -28,7 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={nunito.className}>
         {children}
-
+        <Analytics/>
         <AosAnimation />
       </body>
     </html>
